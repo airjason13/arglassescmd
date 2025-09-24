@@ -1,4 +1,19 @@
 ''' CMD @20250919 '''
+CMD_Version_PN = "ARSYS"
+CMD_Version_Year = '2025'
+CMD_Version_Month = '09'
+CMD_Version_Date = '24'
+CMD_Version_Major = "01"
+CMD_Version_Minor = "00"
+CMD_Version_Patch = "00"
+
+CMD_Version = CMD_Version_PN + "_" + \
+          CMD_Version_Year + \
+          CMD_Version_Month + \
+          CMD_Version_Date + "_" + \
+          CMD_Version_Major + \
+          CMD_Version_Minor + \
+          CMD_Version_Patch
 
 # SPECIAL CMD
 MSG_SPEC_HELLO="msg_spec_hello"
