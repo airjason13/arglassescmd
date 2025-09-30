@@ -52,7 +52,7 @@ SET_CMD = {
     "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 39
 }
 
-# Section: SET_CMD TEST
+# Section: SET_CMD_TEST
 SET_CMD_TEST = {
     "DEMO_SET_TEST": "demo_set_test",  # line 42
     "SYS_SET_TEST": "sys_set_test",  # line 43
