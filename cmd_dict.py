@@ -15,10 +15,13 @@ CMD_TOTAL = {
     "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 37
     "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 38
     "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 39
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 42
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 43
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 44
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_s/et_wifi_uap0_hw_mode",  # line 45
+    "DEMO_SET_TEST": "demo_set_test",  # line 42
+    "SYS_SET_TEST": "sys_set_test",  # line 43
+    "LE_SET_TEST": "le_set_test",  # line 44
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 47
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 48
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 49
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_s/et_wifi_uap0_hw_mode",  # line 50
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -49,10 +52,17 @@ SET_CMD = {
     "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 39
 }
 
+# Section: SET_CMD TEST
+SET_CMD_TEST = {
+    "DEMO_SET_TEST": "demo_set_test",  # line 42
+    "SYS_SET_TEST": "sys_set_test",  # line 43
+    "LE_SET_TEST": "le_set_test",  # line 44
+}
+
 # Section: SET_CMD_SYS_Wifi
 SET_CMD_SYS_Wifi = {
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 42
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 43
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 44
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_s/et_wifi_uap0_hw_mode",  # line 45
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 47
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 48
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 49
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_s/et_wifi_uap0_hw_mode",  # line 50
 }

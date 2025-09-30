@@ -38,6 +38,11 @@ DEMO_SET_PLAY_MEDIA="demo_set_play_media"
 SYS_SET_WIFI_SSID="sys_set_wifi_ssid"
 LE_SET_BRIGHTNESS="le_set_brightness"
 
+# SET_CMD TEST
+DEMO_SET_TEST="demo_set_test"
+SYS_SET_TEST="sys_set_test"
+LE_SET_TEST="le_set_test"
+
 # SET_CMD_SYS_Wifi
 SYS_SET_WIFI_UAP0_SSID="sys_set_wifi_uap0_ssid"
 SYS_SET_WIFI_UAP0_PWD="sys_set_wifi_uap0_pwd"
