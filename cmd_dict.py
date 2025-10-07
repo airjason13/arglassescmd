@@ -33,6 +33,7 @@ CMD_TOTAL = {
     "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 74
     "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 75
     "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 76
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 77
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -95,4 +96,5 @@ SET_CMD_SYS_Wifi = {
     "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 74
     "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 75
     "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 76
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 77
 }
