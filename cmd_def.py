@@ -2,7 +2,7 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '03'
+CMD_Version_Date = '07'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -73,6 +73,6 @@ LE_SET_TEST="le_set_test"
 SYS_SET_WIFI_UAP0_SSID="sys_set_wifi_uap0_ssid"
 SYS_SET_WIFI_UAP0_PWD="sys_set_wifi_uap0_pwd"
 SYS_SET_WIFI_UAP0_SSID_PWD="sys_set_wifi_uap0_ssid_pwd"
-SYS_SET_WIFI_UAP0_HW_MODE="sys_s/et_wifi_uap0_hw_mode"
+SYS_SET_WIFI_UAP0_HW_MODE="sys_set_wifi_uap0_hw_mode"
 
 ''' ============== End of SET CMD ============== '''
