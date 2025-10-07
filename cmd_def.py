@@ -3,7 +3,7 @@ CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
 CMD_Version_Date = '07'
-CMD_Version_Major = "02"
+CMD_Version_Major = "03"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
 
@@ -33,6 +33,14 @@ MSG_GET_SW_VERSION="msg_get_sw_version"
 LE_GET_SW_VERSION="le_get_sw_version"
 DEMO_GET_SW_VERSION="demo_get_sw_version"
 SYS_GET_SW_VERSION="sys_get_sw_version"
+
+# GET_CMD_DEMO_File_List
+DEMO_GET_MEDIAFILE_FILE_LIST="demo_get_mediafile_file_list"
+DEMO_GET_SNAPSHOOTS_FILE_LIST="demo_get_snapshoots_file_list"
+DEMO_GET_RECORDINGS_FILE_LIST="demo_get_recordings_file_list"
+DEMO_GET_MEDAI_FILE_LIST="demo_get_media_file_list"
+DEMO_GET_THUMBNAILS_FILE_LIST="demo_get_thumbnails_file_list"
+DEMO_GET_PLAYLISTS_FILE_LIST="demo_get_playlists_file_list"
 
 # GET_CMD_SYS_Wifi
 SYS_GET_WIFI_UAP0_SSID="sys_get_wifi_uap0_ssid"
