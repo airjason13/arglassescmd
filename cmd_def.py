@@ -2,7 +2,7 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '07'
+CMD_Version_Date = '14'
 CMD_Version_Major = "03"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -42,6 +42,15 @@ DEMO_GET_MEDAI_FILE_LIST="demo_get_media_file_list"
 DEMO_GET_THUMBNAILS_FILE_LIST="demo_get_thumbnails_file_list"
 DEMO_GET_PLAYLISTS_FILE_LIST="demo_get_playlists_file_list"
 
+# GET_CMD_DEMO_MEDIAENGINE_STATUS
+DEMO_GET_MEDIAENGINE_STATUS="demo_get_mediaengine_status"
+DEMO_GET_MEDIAENGINE_STILL_IMAGE_PERIOD="demo_get_mediaengine_still_image_period"
+DEMO_GET_MEDIAENGINE_FILE_URI="demo_get_mediaengine_file_uri"
+DEMO_GET_MEDIAENGINE_PLAYLIST_URI="demo_get_mediaengine_playlist_uri"
+
+# GET_CMD_DEMO_PLAYLIST
+DEMO_GET_PLAYLIST_CONTENT="demo_get_playlist_content"
+
 # GET_CMD_SYS_Wifi
 SYS_GET_WIFI_UAP0_SSID="sys_get_wifi_uap0_ssid"
 SYS_GET_WIFI_UAP0_PWD="sys_get_wifi_uap0_pwd"
@@ -63,6 +72,18 @@ LE_GET_OFFSET="le_get_offset"
 # SET_CMD
 DEMO_SET_PLAY_MEDIA="demo_set_play_media"
 SYS_SET_WIFI_SSID="sys_set_wifi_ssid"
+
+# SET_CMD_DEMO_MEDIAENGINE
+DEMO_SET_MEDIAENGINE_FILE_URI="demo_set_mediaengine_file_uri"
+DEMO_SET_MEDIAENGINE_PLAYLIST_URI="demo_set_mediaengine_playlist_uri"
+DEMO_SET_MEDIAENGINE_STATUS="demo_set_mediaengine_status"
+DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD="demo_set_mediaengine_still_image_period"
+
+# SET_CMD_DEMO_PLAYLIST
+DEMO_SET_ADD_EMPTY_PLAYLIST="demo_set_add_empty_playlist"
+DEMO_SET_DEL_PLAYLIST="demo_set_del_playlist"
+DEMO_SET_ADD_FILE_IN_PLAYLIST="demo_set_add_file_in_playlist"
+DEMO_SET_DEL_FILE_IN_PLAYLIST="demo_set_del_file_in_playlist"
 
 # SET_CMD_LE 
 LE_SET_BRIGHTNESS="le_set_brightness"
