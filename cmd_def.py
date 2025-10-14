@@ -3,7 +3,7 @@ CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
 CMD_Version_Date = '14'
-CMD_Version_Major = "03"
+CMD_Version_Major = "04"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
 
@@ -23,6 +23,8 @@ MSG_SPEC_HELLO="msg_spec_hello"
 # SPEC_CMD_SYS_Reboot
 SYS_SPEC_GOING_TO_REBOOT="msg_spec_going_to_reboot"
 
+# SPEC_CMD_LE
+LE_SPEC_TEMP_PROTECTION="le_spec_temp_protection"
 
 ''' ============== End of SPEC CMD ============== '''
 
@@ -88,7 +90,6 @@ DEMO_SET_DEL_FILE_IN_PLAYLIST="demo_set_del_file_in_playlist"
 # SET_CMD_LE 
 LE_SET_BRIGHTNESS="le_set_brightness"
 LE_SET_CURRENT="le_set_current"
-LE_SET_TEMPERATURE="le_set_temperature"
 LE_SET_MIRROR="le_set_mirror"
 LE_SET_FLIP="le_set_flip"
 LE_SET_OFFSET="le_set_offset"
