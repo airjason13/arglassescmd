@@ -23,7 +23,6 @@ MSG_SPEC_HELLO="msg_spec_hello"
 # SPEC_CMD_SYS_Reboot
 SYS_SPEC_GOING_TO_REBOOT="msg_spec_going_to_reboot"
 
-
 ''' ============== End of SPEC CMD ============== '''
 
 ''' ============== Start of GET CMD ============== '''
@@ -36,9 +35,9 @@ SYS_GET_SW_VERSION="sys_get_sw_version"
 
 # GET_CMD_DEMO_File_List
 DEMO_GET_MEDIAFILE_FILE_LIST="demo_get_mediafile_file_list"
-DEMO_GET_SNAPSHOOTS_FILE_LIST="demo_get_snapshoots_file_list"
+DEMO_GET_SNAPSHOTS_FILE_LIST= "demo_get_snapshots_file_list"
 DEMO_GET_RECORDINGS_FILE_LIST="demo_get_recordings_file_list"
-DEMO_GET_MEDAI_FILE_LIST="demo_get_media_file_list"
+DEMO_GET_MEDIA_FILE_LIST="demo_get_media_file_list"
 DEMO_GET_THUMBNAILS_FILE_LIST="demo_get_thumbnails_file_list"
 DEMO_GET_PLAYLISTS_FILE_LIST="demo_get_playlists_file_list"
 
