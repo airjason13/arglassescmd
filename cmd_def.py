@@ -60,7 +60,7 @@ SYS_GET_WIFI_UAP0_SSID_PWD="sys_get_wifi_uap0_ssid_pwd"
 SYS_GET_WIFI_UAP0_HW_MODE="sys_get_wifi_uap0_hw_mode"
 
 # GET_CMD_LE
-LE_GET_BRIGHTNESS="le_get_luminance"
+LE_GET_BRIGHTNESS="le_get_brightness"
 LE_GET_CURRENT="le_get_current"
 LE_GET_TEMPERATURE="le_get_temperature"
 LE_GET_MIRROR="le_get_mirror"
