@@ -2,8 +2,8 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '15'
-CMD_Version_Major = "05"
+CMD_Version_Date = '16'
+CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
 
@@ -25,6 +25,9 @@ SYS_SPEC_GOING_TO_REBOOT="msg_spec_going_to_reboot"
 
 # SPEC_CMD_LE
 LE_SPEC_TEMP_PROTECTION="le_spec_temp_protection"
+
+# SPEC_CMD_DEMO
+DEMO_SPEC_NO_SUCH_FILE="demo_spec_no_such_file"
 
 ''' ============== End of SPEC CMD ============== '''
 
@@ -76,10 +79,12 @@ DEMO_SET_PLAY_MEDIA="demo_set_play_media"
 SYS_SET_WIFI_SSID="sys_set_wifi_ssid"
 
 # SET_CMD_DEMO_MEDIAENGINE
-DEMO_SET_MEDIAENGINE_FILE_URI="demo_set_mediaengine_file_uri"
-DEMO_SET_MEDIAENGINE_PLAYLIST_URI="demo_set_mediaengine_playlist_uri"
-DEMO_SET_MEDIAENGINE_STATUS="demo_set_mediaengine_status"
 DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD="demo_set_mediaengine_still_image_period"
+DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE="demo_set_mediaengine_play_single_file"
+DEMO_SET_MEDIAENGINE_PLAY_PLAYLIST="demo_set_mediaengine_play_playlist"
+DEMO_SET_MEDIAENGINE_PAUSE="demo_set_mediaengine_pause"
+DEMO_SET_MEDIAENGINE_STOP="demo_set_mediaengine_stop"
+DEMO_SET_MEDIAENGINE_RESUME_PLAYING="demo_set_mediaengine_resume_playing"
 
 # SET_CMD_DEMO_PLAYLIST
 DEMO_SET_ADD_EMPTY_PLAYLIST="demo_set_add_empty_playlist"
