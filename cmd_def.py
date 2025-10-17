@@ -2,7 +2,7 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '16'
+CMD_Version_Date = '17'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -51,7 +51,7 @@ DEMO_GET_PLAYLISTS_FILE_LIST="demo_get_playlists_file_list"
 DEMO_GET_MEDIAENGINE_STATUS="demo_get_mediaengine_status"
 DEMO_GET_MEDIAENGINE_STILL_IMAGE_PERIOD="demo_get_mediaengine_still_image_period"
 DEMO_GET_MEDIAENGINE_FILE_URI="demo_get_mediaengine_file_uri"
-DEMO_GET_MEDIAENGINE_PLAYLIST_URI="demo_get_mediaengine_playlist_uri"
+
 
 # GET_CMD_DEMO_PLAYLIST
 DEMO_GET_PLAYLIST_CONTENT="demo_get_playlist_content"
@@ -85,12 +85,6 @@ DEMO_SET_MEDIAENGINE_PLAY_PLAYLIST="demo_set_mediaengine_play_playlist"
 DEMO_SET_MEDIAENGINE_PAUSE="demo_set_mediaengine_pause"
 DEMO_SET_MEDIAENGINE_STOP="demo_set_mediaengine_stop"
 DEMO_SET_MEDIAENGINE_RESUME_PLAYING="demo_set_mediaengine_resume_playing"
-
-# SET_CMD_DEMO_PLAYLIST
-DEMO_SET_ADD_EMPTY_PLAYLIST="demo_set_add_empty_playlist"
-DEMO_SET_DEL_PLAYLIST="demo_set_del_playlist"
-DEMO_SET_ADD_FILE_IN_PLAYLIST="demo_set_add_file_in_playlist"
-DEMO_SET_DEL_FILE_IN_PLAYLIST="demo_set_del_file_in_playlist"
 
 # SET_CMD_LE 
 LE_SET_BRIGHTNESS="le_set_brightness"

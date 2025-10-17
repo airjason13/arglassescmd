@@ -19,7 +19,6 @@ CMD_TOTAL = {
     "DEMO_GET_MEDIAENGINE_STATUS": "demo_get_mediaengine_status",  # line 51
     "DEMO_GET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_get_mediaengine_still_image_period",  # line 52
     "DEMO_GET_MEDIAENGINE_FILE_URI": "demo_get_mediaengine_file_uri",  # line 53
-    "DEMO_GET_MEDIAENGINE_PLAYLIST_URI": "demo_get_mediaengine_playlist_uri",  # line 54
     "DEMO_GET_PLAYLIST_CONTENT": "demo_get_playlist_content",  # line 57
     "SYS_GET_WIFI_UAP0_SSID": "sys_get_wifi_uap0_ssid",  # line 60
     "SYS_GET_WIFI_UAP0_PWD": "sys_get_wifi_uap0_pwd",  # line 61
@@ -39,23 +38,19 @@ CMD_TOTAL = {
     "DEMO_SET_MEDIAENGINE_PAUSE": "demo_set_mediaengine_pause",  # line 85
     "DEMO_SET_MEDIAENGINE_STOP": "demo_set_mediaengine_stop",  # line 86
     "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 87
-    "DEMO_SET_ADD_EMPTY_PLAYLIST": "demo_set_add_empty_playlist",  # line 90
-    "DEMO_SET_DEL_PLAYLIST": "demo_set_del_playlist",  # line 91
-    "DEMO_SET_ADD_FILE_IN_PLAYLIST": "demo_set_add_file_in_playlist",  # line 92
-    "DEMO_SET_DEL_FILE_IN_PLAYLIST": "demo_set_del_file_in_playlist",  # line 93
-    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 96
-    "LE_SET_CURRENT": "le_set_current",  # line 97
-    "LE_SET_MIRROR": "le_set_mirror",  # line 98
-    "LE_SET_FLIP": "le_set_flip",  # line 99
-    "LE_SET_OFFSET": "le_set_offset",  # line 100
-    "DEMO_SET_TEST": "demo_set_test",  # line 103
-    "SYS_SET_TEST": "sys_set_test",  # line 104
-    "LE_SET_TEST": "le_set_test",  # line 105
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 108
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 109
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 110
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 111
-    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 112
+    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 90
+    "LE_SET_CURRENT": "le_set_current",  # line 91
+    "LE_SET_MIRROR": "le_set_mirror",  # line 92
+    "LE_SET_FLIP": "le_set_flip",  # line 93
+    "LE_SET_OFFSET": "le_set_offset",  # line 94
+    "DEMO_SET_TEST": "demo_set_test",  # line 97
+    "SYS_SET_TEST": "sys_set_test",  # line 98
+    "LE_SET_TEST": "le_set_test",  # line 99
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 102
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 103
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 104
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 105
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 106
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -96,7 +91,6 @@ GET_CMD_DEMO_MEDIAENGINE_STATUS = {
     "DEMO_GET_MEDIAENGINE_STATUS": "demo_get_mediaengine_status",  # line 51
     "DEMO_GET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_get_mediaengine_still_image_period",  # line 52
     "DEMO_GET_MEDIAENGINE_FILE_URI": "demo_get_mediaengine_file_uri",  # line 53
-    "DEMO_GET_MEDIAENGINE_PLAYLIST_URI": "demo_get_mediaengine_playlist_uri",  # line 54
 }
 
 # Section: GET_CMD_DEMO_PLAYLIST
@@ -138,35 +132,27 @@ SET_CMD_DEMO_MEDIAENGINE = {
     "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 87
 }
 
-# Section: SET_CMD_DEMO_PLAYLIST
-SET_CMD_DEMO_PLAYLIST = {
-    "DEMO_SET_ADD_EMPTY_PLAYLIST": "demo_set_add_empty_playlist",  # line 90
-    "DEMO_SET_DEL_PLAYLIST": "demo_set_del_playlist",  # line 91
-    "DEMO_SET_ADD_FILE_IN_PLAYLIST": "demo_set_add_file_in_playlist",  # line 92
-    "DEMO_SET_DEL_FILE_IN_PLAYLIST": "demo_set_del_file_in_playlist",  # line 93
-}
-
 # Section: SET_CMD_LE
 SET_CMD_LE = {
-    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 96
-    "LE_SET_CURRENT": "le_set_current",  # line 97
-    "LE_SET_MIRROR": "le_set_mirror",  # line 98
-    "LE_SET_FLIP": "le_set_flip",  # line 99
-    "LE_SET_OFFSET": "le_set_offset",  # line 100
+    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 90
+    "LE_SET_CURRENT": "le_set_current",  # line 91
+    "LE_SET_MIRROR": "le_set_mirror",  # line 92
+    "LE_SET_FLIP": "le_set_flip",  # line 93
+    "LE_SET_OFFSET": "le_set_offset",  # line 94
 }
 
 # Section: SET_CMD TEST
 SET_CMD_TEST = {
-    "DEMO_SET_TEST": "demo_set_test",  # line 103
-    "SYS_SET_TEST": "sys_set_test",  # line 104
-    "LE_SET_TEST": "le_set_test",  # line 105
+    "DEMO_SET_TEST": "demo_set_test",  # line 97
+    "SYS_SET_TEST": "sys_set_test",  # line 98
+    "LE_SET_TEST": "le_set_test",  # line 99
 }
 
 # Section: SET_CMD_SYS_Wifi
 SET_CMD_SYS_Wifi = {
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 108
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 109
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 110
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 111
-    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 112
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 102
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 103
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 104
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 105
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 106
 }
