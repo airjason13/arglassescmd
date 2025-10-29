@@ -2,8 +2,8 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '17'
-CMD_Version_Major = "03"
+CMD_Version_Date = '29'
+CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
 
@@ -28,7 +28,8 @@ LE_SPEC_TEMP_PROTECTION="le_spec_temp_protection"
 LE_SPEC_NOTIFY_ERROR="le_spec_notify_error"
 
 # SPEC_CMD_DEMO
-DEMO_SPEC_NO_SUCH_FILE="demo_spec_no_such_file"
+DEMO_SPEC_MEDIAENGINE_CMD_ERROR_REPORT="demo_spec_mediaengine_cmd_error_report"
+DEMO_SPEC_MEDIAENGINE_STATUS_REPORT="demo_spec_mediaengine_status_report"
 
 ''' ============== End of SPEC CMD ============== '''
 
