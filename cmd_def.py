@@ -2,7 +2,7 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
 CMD_Version_Month = '10'
-CMD_Version_Date = '29'
+CMD_Version_Date = '31'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -82,6 +82,7 @@ DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE="demo_set_mediaengine_play_single_file"
 DEMO_SET_MEDIAENGINE_PAUSE="demo_set_mediaengine_pause"
 DEMO_SET_MEDIAENGINE_STOP="demo_set_mediaengine_stop"
 DEMO_SET_MEDIAENGINE_RESUME_PLAYING="demo_set_mediaengine_resume_playing"
+DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE="demo_set_mediaengine_render_subtitle"
 
 # SET_CMD_LE 
 LE_SET_BRIGHTNESS="le_set_brightness"
