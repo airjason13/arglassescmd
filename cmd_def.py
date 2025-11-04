@@ -1,8 +1,8 @@
 ''' CMD @20250919 '''
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
-CMD_Version_Month = '10'
-CMD_Version_Date = '31'
+CMD_Version_Month = '11'
+CMD_Version_Date = '03'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -68,6 +68,10 @@ LE_GET_MIRROR="le_get_mirror"
 LE_GET_FLIP="le_get_flip"
 LE_GET_OFFSET="le_get_offset"
 
+# GET_CMD_PLAYLIST
+DEMO_GET_PLAYLIST_GET_ALL       = "demo_get_playlist_get_all"       # 取得所有播放清單
+DEMO_GET_PLAYLIST_GET_LIST      = "demo_get_playlist_get_list"      # 查詢當前清單內容
+DEMO_GET_PLAYLIST_GET_ITEM      = "demo_get_playlist_get_item"      # 查詢當前播放
 ''' ============== End of GET CMD ================ '''
 
 ''' ============== Start of SET CMD ============== '''
@@ -102,5 +106,16 @@ SYS_SET_WIFI_UAP0_PWD="sys_set_wifi_uap0_pwd"
 SYS_SET_WIFI_UAP0_SSID_PWD="sys_set_wifi_uap0_ssid_pwd"
 SYS_SET_WIFI_UAP0_HW_MODE="sys_set_wifi_uap0_hw_mode"
 SYS_SET_WIFI_UAP0_RESTART="sys_set_wifi_uap0_restart"
+
+# SET_CMD_PLAYLIST
+DEMO_SET_PLAYLIST_CREATE          = "demo_set_playlist_create"          # 建立播放清單
+DEMO_SET_PLAYLIST_SELECT          = "demo_set_playlist_select"          # 選擇播放清單
+DEMO_SET_PLAYLIST_ADD_ITEM        = "demo_set_playlist_add_item"        # 加入影片
+DEMO_SET_PLAYLIST_REMOVE_ITEM     = "demo_set_playlist_remove_item"     # 移除影片
+DEMO_SET_PLAYLIST_PLAY            = "demo_set_playlist_play"            # 播放目前清單
+DEMO_SET_PLAYLIST_STOP            = "demo_set_playlist_stop"            # 停止播放
+DEMO_SET_PLAYLIST_REMOVE_PLAYLIST = "demo_set_playlist_remove_playlist" # 移除播放清單
+DEMO_SET_PLAYLIST_NEXT_ITEM       = "demo_set_playlist_next_item"       # 切換下一部
+DEMO_SET_PLAYLIST_PREV_ITEM       = "demo_set_playlist_prev_item"       # 切換上一部
 
 ''' ============== End of SET CMD ============== '''
