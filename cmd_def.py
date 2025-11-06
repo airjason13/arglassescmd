@@ -108,14 +108,16 @@ SYS_SET_WIFI_UAP0_HW_MODE="sys_set_wifi_uap0_hw_mode"
 SYS_SET_WIFI_UAP0_RESTART="sys_set_wifi_uap0_restart"
 
 # SET_CMD_PLAYLIST
-DEMO_SET_PLAYLIST_CREATE          = "demo_set_playlist_create"          # 建立播放清單
-DEMO_SET_PLAYLIST_SELECT          = "demo_set_playlist_select"          # 選擇播放清單
-DEMO_SET_PLAYLIST_ADD_ITEM        = "demo_set_playlist_add_item"        # 加入影片
-DEMO_SET_PLAYLIST_REMOVE_ITEM     = "demo_set_playlist_remove_item"     # 移除影片
-DEMO_SET_PLAYLIST_PLAY            = "demo_set_playlist_play"            # 播放目前清單
-DEMO_SET_PLAYLIST_STOP            = "demo_set_playlist_stop"            # 停止播放
-DEMO_SET_PLAYLIST_REMOVE_PLAYLIST = "demo_set_playlist_remove_playlist" # 移除播放清單
-DEMO_SET_PLAYLIST_NEXT_ITEM       = "demo_set_playlist_next_item"       # 切換下一部
-DEMO_SET_PLAYLIST_PREV_ITEM       = "demo_set_playlist_prev_item"       # 切換上一部
-
+DEMO_SET_PLAYLIST_CREATE          = "demo_set_playlist_create"             # 建立播放清單
+DEMO_SET_PLAYLIST_SELECT          = "demo_set_playlist_select"             # 選擇播放清單
+DEMO_SET_PLAYLIST_ADD_ITEM        = "demo_set_playlist_add_item"           # 加入影片
+DEMO_SET_PLAYLIST_REMOVE_ITEM     = "demo_set_playlist_remove_item"        # 移除影片
+DEMO_SET_PLAYLIST_PLAY            = "demo_set_playlist_play"               # 播放目前清單
+DEMO_SET_PLAYLIST_STOP            = "demo_set_playlist_stop"               # 停止播放
+DEMO_SET_PLAYLIST_REMOVE_PLAYLIST = "demo_set_playlist_remove_playlist"    # 移除播放清單
+DEMO_SET_PLAYLIST_NEXT_ITEM       = "demo_set_playlist_next_item"          # 切換下一部
+DEMO_SET_PLAYLIST_PREV_ITEM       = "demo_set_playlist_prev_item"          # 切換上一部
+DEMO_SET_PLAYLIST_ADD_BATCH       = "demo_set_playlist_add_batch"          # 批次加入影片
+DEMO_SET_PLAYLIST_REMOVE_BATCH    = "demo_set_playlist_remove_batch"       # 批次移除影片
+DEMO_GET_PLAYLIST_EXPAND_ALL      = "demo_get_playlist_expand_all"         # 展開全部清單內容
 ''' ============== End of SET CMD ============== '''

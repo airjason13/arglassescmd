@@ -63,6 +63,9 @@ CMD_TOTAL = {
     "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 117
     "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 118
     "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 119
+    "DEMO_SET_PLAYLIST_ADD_BATCH": "demo_set_playlist_add_batch",  # line 120
+    "DEMO_SET_PLAYLIST_REMOVE_BATCH": "demo_set_playlist_remove_batch",  # line 121
+    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 122
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -183,4 +186,7 @@ SET_CMD_PLAYLIST = {
     "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 117
     "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 118
     "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 119
+    "DEMO_SET_PLAYLIST_ADD_BATCH": "demo_set_playlist_add_batch",  # line 120
+    "DEMO_SET_PLAYLIST_REMOVE_BATCH": "demo_set_playlist_remove_batch",  # line 121
+    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 122
 }
