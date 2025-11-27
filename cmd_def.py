@@ -69,9 +69,9 @@ LE_GET_FLIP="le_get_flip"
 LE_GET_OFFSET="le_get_offset"
 
 # GET_CMD_PLAYLIST
-DEMO_GET_PLAYLIST_GET_ALL       = "demo_get_playlist_get_all"       # 取得所有播放清單
-DEMO_GET_PLAYLIST_GET_LIST      = "demo_get_playlist_get_list"      # 查詢當前清單內容
-DEMO_GET_PLAYLIST_GET_ITEM      = "demo_get_playlist_get_item"      # 查詢當前播放
+DEMO_GET_PLAYLIST_GET_ALL          = "demo_get_playlist_get_all"            # 取得所有播放清單
+DEMO_GET_PLAYLIST_GET_LIST         = "demo_get_playlist_get_list"           # 查詢當前清單內容
+DEMO_GET_PLAYLIST_GET_CURRENT_FILE = "demo_get_playlist_get_current_file"   # 查詢當前播放
 ''' ============== End of GET CMD ================ '''
 
 ''' ============== Start of SET CMD ============== '''
