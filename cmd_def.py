@@ -122,6 +122,6 @@ DEMO_SET_PLAYLIST_NEXT_ITEM               = "demo_set_playlist_next_item"       
 DEMO_SET_PLAYLIST_PREV_ITEM               = "demo_set_playlist_prev_item"              # 切換上一部
 DEMO_SET_PLAYLIST_BATCH_ADD               = "demo_set_playlist_batch_add"              # 批次加入影片
 DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME    = "demo_set_playlist_batch_remove_by_name"   # 批次移除影片(路徑名稱)
-DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX   = "demo_set_playlist_batch_remove_by_name"   # 批次移除影片(內容索引)
+DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX   = "demo_set_playlist_batch_remove_by_index"   # 批次移除影片(內容索引)
 DEMO_GET_PLAYLIST_EXPAND_ALL              = "demo_get_playlist_expand_all"             # 展開全部清單內容
 ''' ============== End of SET CMD ============== '''

@@ -68,7 +68,7 @@ CMD_TOTAL = {
     "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 122
     "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 123
     "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 124
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_name",  # line 125
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 125
     "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 126
 }
 
@@ -195,6 +195,6 @@ SET_CMD_PLAYLIST = {
     "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 122
     "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 123
     "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 124
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_name",  # line 125
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 125
     "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 126
 }
