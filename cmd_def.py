@@ -1,8 +1,8 @@
 ''' CMD @20250919 '''
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2025'
-CMD_Version_Month = '11'
-CMD_Version_Date = '14'
+CMD_Version_Month = '12'
+CMD_Version_Date = '03'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
