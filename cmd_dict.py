@@ -33,7 +33,7 @@ CMD_TOTAL = {
     "DEMO_GET_PLAYLIST_GET_ALL": "demo_get_playlist_get_all",  # line 72
     "DEMO_GET_PLAYLIST_GET_LIST": "demo_get_playlist_get_list",  # line 73
     "DEMO_GET_PLAYLIST_GET_CURRENT_FILE": "demo_get_playlist_get_current_file",  # line 74
-    "CMD_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 77
+    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 77
     "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 84
     "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 85
     "DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_set_mediaengine_still_image_period",  # line 88
@@ -71,7 +71,7 @@ CMD_TOTAL = {
     "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 128
     "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 129
     "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 130
-    "CMD_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 133
+    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 133
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -142,7 +142,7 @@ GET_CMD_PLAYLIST = {
 
 # Section: GET_CMD_SPEAKER
 GET_CMD_SPEAKER = {
-    "CMD_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 77
+    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 77
 }
 
 # Section: SET_CMD
@@ -208,5 +208,5 @@ SET_CMD_PLAYLIST = {
 
 # Section: SET_CMD_SPEAKER
 SET_CMD_SPEAKER = {
-    "CMD_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 133
+    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 133
 }

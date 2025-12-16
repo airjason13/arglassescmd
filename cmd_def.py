@@ -74,7 +74,7 @@ DEMO_GET_PLAYLIST_GET_LIST         = "demo_get_playlist_get_list"           # �
 DEMO_GET_PLAYLIST_GET_CURRENT_FILE = "demo_get_playlist_get_current_file"   # 查詢當前播放
 
 # GET_CMD_SPEAKER
-CMD_GET_MEDIA_VOLUME  = "demo_get_media_volume" #取得多媒體音量
+DEMO_GET_MEDIA_VOLUME  = "demo_get_media_volume" #取得多媒體音量
 
 ''' ============== End of GET CMD ================ '''
 
@@ -130,5 +130,5 @@ DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX   = "demo_set_playlist_batch_remove_by_i
 DEMO_GET_PLAYLIST_EXPAND_ALL              = "demo_get_playlist_expand_all"             # 展開全部清單內容
 
 # SET_CMD_SPEAKER
-CMD_SET_MEDIA_VOLUME  = "demo_set_media_volume" # 寫入多媒體音量
+DEMO_SET_MEDIA_VOLUME  = "demo_set_media_volume" # 寫入多媒體音量
 ''' ============== End of SET CMD ============== '''
