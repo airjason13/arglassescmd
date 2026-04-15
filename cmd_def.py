@@ -133,4 +133,9 @@ DEMO_GET_PLAYLIST_EXPAND_ALL              = "demo_get_playlist_expand_all"      
 # SET_CMD_SPEAKER
 DEMO_SET_MEDIA_VOLUME  = "demo_set_media_volume" # 寫入多媒體音量
 SYS_SET_SYSTEM_VOLUME  = "sys_set_system_volume" # 寫入系統音量
+
+# SET_CMD_NAV
+DEMO_SET_NAV_STATE = "demo_set_nav_state" # 導航狀態設定
+DEMO_SET_NAV_STOP = "demo_set_nav_stop" # 停止導航
+DEMO_SET_NAV_MAP_IMAGE = "demo_set_nav_map_image" # 更新導航圖片
 ''' ============== End of SET CMD ============== '''

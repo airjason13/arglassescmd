@@ -74,6 +74,9 @@ CMD_TOTAL = {
     "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 131
     "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 134
     "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 135
+    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 138
+    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 139
+    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 140
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -213,4 +216,11 @@ SET_CMD_PLAYLIST = {
 SET_CMD_SPEAKER = {
     "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 134
     "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 135
+}
+
+# Section: SET_CMD_NAV
+SET_CMD_NAV = {
+    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 138
+    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 139
+    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 140
 }
