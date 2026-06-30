@@ -95,6 +95,7 @@ DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE="demo_set_mediaengine_render_subtitle"
 DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR="demo_set_mediaengine_subtitle_color"
 DEMO_SET_MEDIAENGINE_SUBTITLE_REPEAT="demo_set_mediaengine_subtitle_repeat"
 DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR_LINES="demo_set_mediaengine_subtitle_color_lines"
+DEMO_SET_MEDIAFILE_REMOVE_FILE = "demo_set_mediafile_remove_file"
 
 # SET_CMD_LE
 LE_SET_BRIGHTNESS="le_set_brightness"
