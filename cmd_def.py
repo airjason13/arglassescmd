@@ -40,7 +40,7 @@ MSG_GET_SW_VERSION="msg_get_sw_version"
 LE_GET_SW_VERSION="le_get_sw_version"
 DEMO_GET_SW_VERSION="demo_get_sw_version"
 SYS_GET_SW_VERSION="sys_get_sw_version"
-SYS_GET_DEMO_SW_VERSION="sys_get_msg_sw_version"
+SYS_GET_MSG_SW_VERSION="sys_get_msg_sw_version"
 SYS_GET_ALL_SW_VERSION="sys_get_all_sw_version"
 
 # GET_CMD_DEMO_File_List
