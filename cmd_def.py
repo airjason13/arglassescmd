@@ -1,8 +1,8 @@
 ''' CMD @20250919 '''
 CMD_Version_PN = "ARGLASSES_CMD"
-CMD_Version_Year = '2025'
-CMD_Version_Month = '12'
-CMD_Version_Date = '03'
+CMD_Version_Year = '2027'
+CMD_Version_Month = '07'
+CMD_Version_Date = '06'
 CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
@@ -40,6 +40,8 @@ MSG_GET_SW_VERSION="msg_get_sw_version"
 LE_GET_SW_VERSION="le_get_sw_version"
 DEMO_GET_SW_VERSION="demo_get_sw_version"
 SYS_GET_SW_VERSION="sys_get_sw_version"
+SYS_GET_DEMO_SW_VERSION="sys_get_msg_sw_version"
+SYS_GET_ALL_SW_VERSION="sys_get_all_sw_version"
 
 # GET_CMD_DEMO_File_List
 DEMO_GET_MEDIAFILE_FILE_LIST="demo_get_mediafile_file_list"
