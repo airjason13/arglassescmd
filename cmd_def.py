@@ -2,8 +2,8 @@
 CMD_Version_PN = "ARGLASSES_CMD"
 CMD_Version_Year = '2027'
 CMD_Version_Month = '07'
-CMD_Version_Date = '06'
-CMD_Version_Major = "02"
+CMD_Version_Date = '16'
+CMD_Version_Major = "01"
 CMD_Version_Minor = "00"
 CMD_Version_Patch = "00"
 
@@ -69,6 +69,9 @@ LE_GET_TEMPERATURE="le_get_temperature"
 LE_GET_MIRROR="le_get_mirror"
 LE_GET_FLIP="le_get_flip"
 LE_GET_OFFSET="le_get_offset"
+LE_GET_FPS="le_get_fps"
+LE_GET_FPS_OPTIONS="le_get_fps_options"
+LE_GET_NAME="le_get_name"
 
 # GET_CMD_PLAYLIST
 DEMO_GET_PLAYLIST_GET_ALL          = "demo_get_playlist_get_all"            # 取得所有播放清單
@@ -105,6 +108,8 @@ LE_SET_CURRENT="le_set_current"
 LE_SET_MIRROR="le_set_mirror"
 LE_SET_FLIP="le_set_flip"
 LE_SET_OFFSET="le_set_offset"
+LE_SET_FPS="le_set_fps"
+
 
 # SET_CMD TEST
 DEMO_SET_TEST="demo_set_test"
