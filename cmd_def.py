@@ -146,4 +146,27 @@ SYS_SET_SYSTEM_VOLUME  = "sys_set_system_volume" # 寫入系統音量
 DEMO_SET_NAV_STATE = "demo_set_nav_state" # 導航狀態設定
 DEMO_SET_NAV_STOP = "demo_set_nav_stop" # 停止導航
 DEMO_SET_NAV_MAP_IMAGE = "demo_set_nav_map_image" # 更新導航圖片
+
+# GET_CMD_DEMURA
+DEMO_GET_DEMURA_ON_OFF="demo_get_demura_on_off" # 讀取 Demura 啟動狀態
+
+# SET_CMD_DEMURA
+DEMO_SET_DEMURA_ON_OFF="demo_set_demura_on_off" # 設定 Demura 啟動狀態
+
+# GET_CMD_DEMURA_EDGE
+DEMO_GET_DEMURA_EDGE="demo_get_demura_edge" # 取得 Demura Edge 設定
+
+# SET_CMD_DEMURA_EDGE
+DEMO_SET_DEMURA_EDGE="demo_set_demura_edge" # 寫入 Demura Edge 設定
+
+# GET_CMD_DEMURA_ROI
+DEMO_GET_DEMURA_ROI="demo_get_demura_roi" # 取得 Demura ROI 設定
+
+# SET_CMD_DEMURA_ROI
+DEMO_SET_DEMURA_ROI="demo_set_demura_roi" # 寫入 Demura ROI 設定
+
+# DEMO_SET_DEMURA_LUT
+DEMO_SET_DEMURA_LUT = "demo_set_demura_lut" # 上傳並載入 Demura LUT
 ''' ============== End of SET CMD ============== '''
+
+

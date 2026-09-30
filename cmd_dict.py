@@ -32,54 +32,65 @@ CMD_TOTAL = {
     "LE_GET_MIRROR": "le_get_mirror",  # line 69
     "LE_GET_FLIP": "le_get_flip",  # line 70
     "LE_GET_OFFSET": "le_get_offset",  # line 71
-    "DEMO_GET_PLAYLIST_GET_ALL": "demo_get_playlist_get_all",  # line 74
-    "DEMO_GET_PLAYLIST_GET_LIST": "demo_get_playlist_get_list",  # line 75
-    "DEMO_GET_PLAYLIST_GET_CURRENT_FILE": "demo_get_playlist_get_current_file",  # line 76
-    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 79
-    "SYS_GET_SYSTEM_VOLUME": "sys_get_system_volume",  # line 80
-    "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 87
-    "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 88
-    "DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_set_mediaengine_still_image_period",  # line 91
-    "DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE": "demo_set_mediaengine_play_single_file",  # line 92
-    "DEMO_SET_MEDIAENGINE_PAUSE": "demo_set_mediaengine_pause",  # line 93
-    "DEMO_SET_MEDIAENGINE_STOP": "demo_set_mediaengine_stop",  # line 94
-    "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 95
-    "DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE": "demo_set_mediaengine_render_subtitle",  # line 96
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR": "demo_set_mediaengine_subtitle_color",  # line 97
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_REPEAT": "demo_set_mediaengine_subtitle_repeat",  # line 98
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR_LINES": "demo_set_mediaengine_subtitle_color_lines",  # line 99
-    "DEMO_SET_MEDIAFILE_REMOVE_FILE": "demo_set_mediafile_remove_file",  # line 100
-    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 103
-    "LE_SET_CURRENT": "le_set_current",  # line 104
-    "LE_SET_MIRROR": "le_set_mirror",  # line 105
-    "LE_SET_FLIP": "le_set_flip",  # line 106
-    "LE_SET_OFFSET": "le_set_offset",  # line 107
-    "DEMO_SET_TEST": "demo_set_test",  # line 110
-    "SYS_SET_TEST": "sys_set_test",  # line 111
-    "LE_SET_TEST": "le_set_test",  # line 112
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 115
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 116
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 117
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 118
-    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 119
-    "DEMO_SET_PLAYLIST_CREATE": "demo_set_playlist_create",  # line 122
-    "DEMO_SET_PLAYLIST_SELECT": "demo_set_playlist_select",  # line 123
-    "DEMO_SET_PLAYLIST_ADD_ITEM": "demo_set_playlist_add_item",  # line 124
-    "DEMO_SET_PLAYLIST_REMOVE_ITEM": "demo_set_playlist_remove_item",  # line 125
-    "DEMO_SET_PLAYLIST_PLAY": "demo_set_playlist_play",  # line 126
-    "DEMO_SET_PLAYLIST_STOP": "demo_set_playlist_stop",  # line 127
-    "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 128
-    "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 129
-    "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 130
-    "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 131
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 132
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 133
-    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 134
-    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 137
-    "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 138
-    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 141
-    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 142
-    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 143
+    "LE_GET_FPS": "le_get_fps",  # line 72
+    "LE_GET_FPS_OPTIONS": "le_get_fps_options",  # line 73
+    "LE_GET_NAME": "le_get_name",  # line 74
+    "DEMO_GET_PLAYLIST_GET_ALL": "demo_get_playlist_get_all",  # line 77
+    "DEMO_GET_PLAYLIST_GET_LIST": "demo_get_playlist_get_list",  # line 78
+    "DEMO_GET_PLAYLIST_GET_CURRENT_FILE": "demo_get_playlist_get_current_file",  # line 79
+    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 82
+    "SYS_GET_SYSTEM_VOLUME": "sys_get_system_volume",  # line 83
+    "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 90
+    "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 91
+    "DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_set_mediaengine_still_image_period",  # line 94
+    "DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE": "demo_set_mediaengine_play_single_file",  # line 95
+    "DEMO_SET_MEDIAENGINE_PAUSE": "demo_set_mediaengine_pause",  # line 96
+    "DEMO_SET_MEDIAENGINE_STOP": "demo_set_mediaengine_stop",  # line 97
+    "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 98
+    "DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE": "demo_set_mediaengine_render_subtitle",  # line 99
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR": "demo_set_mediaengine_subtitle_color",  # line 100
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_REPEAT": "demo_set_mediaengine_subtitle_repeat",  # line 101
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR_LINES": "demo_set_mediaengine_subtitle_color_lines",  # line 102
+    "DEMO_SET_MEDIAFILE_REMOVE_FILE": "demo_set_mediafile_remove_file",  # line 103
+    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 106
+    "LE_SET_CURRENT": "le_set_current",  # line 107
+    "LE_SET_MIRROR": "le_set_mirror",  # line 108
+    "LE_SET_FLIP": "le_set_flip",  # line 109
+    "LE_SET_OFFSET": "le_set_offset",  # line 110
+    "LE_SET_FPS": "le_set_fps",  # line 111
+    "DEMO_SET_TEST": "demo_set_test",  # line 115
+    "SYS_SET_TEST": "sys_set_test",  # line 116
+    "LE_SET_TEST": "le_set_test",  # line 117
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 120
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 121
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 122
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 123
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 124
+    "DEMO_SET_PLAYLIST_CREATE": "demo_set_playlist_create",  # line 127
+    "DEMO_SET_PLAYLIST_SELECT": "demo_set_playlist_select",  # line 128
+    "DEMO_SET_PLAYLIST_ADD_ITEM": "demo_set_playlist_add_item",  # line 129
+    "DEMO_SET_PLAYLIST_REMOVE_ITEM": "demo_set_playlist_remove_item",  # line 130
+    "DEMO_SET_PLAYLIST_PLAY": "demo_set_playlist_play",  # line 131
+    "DEMO_SET_PLAYLIST_STOP": "demo_set_playlist_stop",  # line 132
+    "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 133
+    "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 134
+    "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 135
+    "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 136
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 137
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 138
+    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 139
+    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 142
+    "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 143
+    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 146
+    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 147
+    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 148
+    "DEMO_GET_DEMURA_ON_OFF": "demo_get_demura_on_off",  # line 151
+    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 154
+    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 157
+    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 160
+    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 163
+    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 166
+    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 170
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -141,92 +152,127 @@ GET_CMD_LE = {
     "LE_GET_MIRROR": "le_get_mirror",  # line 69
     "LE_GET_FLIP": "le_get_flip",  # line 70
     "LE_GET_OFFSET": "le_get_offset",  # line 71
+    "LE_GET_FPS": "le_get_fps",  # line 72
+    "LE_GET_FPS_OPTIONS": "le_get_fps_options",  # line 73
+    "LE_GET_NAME": "le_get_name",  # line 74
 }
 
 # Section: GET_CMD_PLAYLIST
 GET_CMD_PLAYLIST = {
-    "DEMO_GET_PLAYLIST_GET_ALL": "demo_get_playlist_get_all",  # line 74
-    "DEMO_GET_PLAYLIST_GET_LIST": "demo_get_playlist_get_list",  # line 75
-    "DEMO_GET_PLAYLIST_GET_CURRENT_FILE": "demo_get_playlist_get_current_file",  # line 76
+    "DEMO_GET_PLAYLIST_GET_ALL": "demo_get_playlist_get_all",  # line 77
+    "DEMO_GET_PLAYLIST_GET_LIST": "demo_get_playlist_get_list",  # line 78
+    "DEMO_GET_PLAYLIST_GET_CURRENT_FILE": "demo_get_playlist_get_current_file",  # line 79
 }
 
 # Section: GET_CMD_SPEAKER
 GET_CMD_SPEAKER = {
-    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 79
-    "SYS_GET_SYSTEM_VOLUME": "sys_get_system_volume",  # line 80
+    "DEMO_GET_MEDIA_VOLUME": "demo_get_media_volume",  # line 82
+    "SYS_GET_SYSTEM_VOLUME": "sys_get_system_volume",  # line 83
 }
 
 # Section: SET_CMD
 SET_CMD = {
-    "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 87
-    "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 88
+    "DEMO_SET_PLAY_MEDIA": "demo_set_play_media",  # line 90
+    "SYS_SET_WIFI_SSID": "sys_set_wifi_ssid",  # line 91
 }
 
 # Section: SET_CMD_DEMO_MEDIAENGINE
 SET_CMD_DEMO_MEDIAENGINE = {
-    "DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_set_mediaengine_still_image_period",  # line 91
-    "DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE": "demo_set_mediaengine_play_single_file",  # line 92
-    "DEMO_SET_MEDIAENGINE_PAUSE": "demo_set_mediaengine_pause",  # line 93
-    "DEMO_SET_MEDIAENGINE_STOP": "demo_set_mediaengine_stop",  # line 94
-    "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 95
-    "DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE": "demo_set_mediaengine_render_subtitle",  # line 96
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR": "demo_set_mediaengine_subtitle_color",  # line 97
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_REPEAT": "demo_set_mediaengine_subtitle_repeat",  # line 98
-    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR_LINES": "demo_set_mediaengine_subtitle_color_lines",  # line 99
-    "DEMO_SET_MEDIAFILE_REMOVE_FILE": "demo_set_mediafile_remove_file",  # line 100
+    "DEMO_SET_MEDIAENGINE_STILL_IMAGE_PERIOD": "demo_set_mediaengine_still_image_period",  # line 94
+    "DEMO_SET_MEDIAENGINE_PLAY_SINGLE_FILE": "demo_set_mediaengine_play_single_file",  # line 95
+    "DEMO_SET_MEDIAENGINE_PAUSE": "demo_set_mediaengine_pause",  # line 96
+    "DEMO_SET_MEDIAENGINE_STOP": "demo_set_mediaengine_stop",  # line 97
+    "DEMO_SET_MEDIAENGINE_RESUME_PLAYING": "demo_set_mediaengine_resume_playing",  # line 98
+    "DEMO_SET_MEDIAENGINE_RENDER_SUBTITLE": "demo_set_mediaengine_render_subtitle",  # line 99
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR": "demo_set_mediaengine_subtitle_color",  # line 100
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_REPEAT": "demo_set_mediaengine_subtitle_repeat",  # line 101
+    "DEMO_SET_MEDIAENGINE_SUBTITLE_COLOR_LINES": "demo_set_mediaengine_subtitle_color_lines",  # line 102
+    "DEMO_SET_MEDIAFILE_REMOVE_FILE": "demo_set_mediafile_remove_file",  # line 103
 }
 
 # Section: SET_CMD_LE
 SET_CMD_LE = {
-    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 103
-    "LE_SET_CURRENT": "le_set_current",  # line 104
-    "LE_SET_MIRROR": "le_set_mirror",  # line 105
-    "LE_SET_FLIP": "le_set_flip",  # line 106
-    "LE_SET_OFFSET": "le_set_offset",  # line 107
+    "LE_SET_BRIGHTNESS": "le_set_brightness",  # line 106
+    "LE_SET_CURRENT": "le_set_current",  # line 107
+    "LE_SET_MIRROR": "le_set_mirror",  # line 108
+    "LE_SET_FLIP": "le_set_flip",  # line 109
+    "LE_SET_OFFSET": "le_set_offset",  # line 110
+    "LE_SET_FPS": "le_set_fps",  # line 111
 }
 
 # Section: SET_CMD TEST
 SET_CMD_TEST = {
-    "DEMO_SET_TEST": "demo_set_test",  # line 110
-    "SYS_SET_TEST": "sys_set_test",  # line 111
-    "LE_SET_TEST": "le_set_test",  # line 112
+    "DEMO_SET_TEST": "demo_set_test",  # line 115
+    "SYS_SET_TEST": "sys_set_test",  # line 116
+    "LE_SET_TEST": "le_set_test",  # line 117
 }
 
 # Section: SET_CMD_SYS_Wifi
 SET_CMD_SYS_Wifi = {
-    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 115
-    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 116
-    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 117
-    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 118
-    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 119
+    "SYS_SET_WIFI_UAP0_SSID": "sys_set_wifi_uap0_ssid",  # line 120
+    "SYS_SET_WIFI_UAP0_PWD": "sys_set_wifi_uap0_pwd",  # line 121
+    "SYS_SET_WIFI_UAP0_SSID_PWD": "sys_set_wifi_uap0_ssid_pwd",  # line 122
+    "SYS_SET_WIFI_UAP0_HW_MODE": "sys_set_wifi_uap0_hw_mode",  # line 123
+    "SYS_SET_WIFI_UAP0_RESTART": "sys_set_wifi_uap0_restart",  # line 124
 }
 
 # Section: SET_CMD_PLAYLIST
 SET_CMD_PLAYLIST = {
-    "DEMO_SET_PLAYLIST_CREATE": "demo_set_playlist_create",  # line 122
-    "DEMO_SET_PLAYLIST_SELECT": "demo_set_playlist_select",  # line 123
-    "DEMO_SET_PLAYLIST_ADD_ITEM": "demo_set_playlist_add_item",  # line 124
-    "DEMO_SET_PLAYLIST_REMOVE_ITEM": "demo_set_playlist_remove_item",  # line 125
-    "DEMO_SET_PLAYLIST_PLAY": "demo_set_playlist_play",  # line 126
-    "DEMO_SET_PLAYLIST_STOP": "demo_set_playlist_stop",  # line 127
-    "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 128
-    "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 129
-    "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 130
-    "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 131
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 132
-    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 133
-    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 134
+    "DEMO_SET_PLAYLIST_CREATE": "demo_set_playlist_create",  # line 127
+    "DEMO_SET_PLAYLIST_SELECT": "demo_set_playlist_select",  # line 128
+    "DEMO_SET_PLAYLIST_ADD_ITEM": "demo_set_playlist_add_item",  # line 129
+    "DEMO_SET_PLAYLIST_REMOVE_ITEM": "demo_set_playlist_remove_item",  # line 130
+    "DEMO_SET_PLAYLIST_PLAY": "demo_set_playlist_play",  # line 131
+    "DEMO_SET_PLAYLIST_STOP": "demo_set_playlist_stop",  # line 132
+    "DEMO_SET_PLAYLIST_REMOVE_PLAYLIST": "demo_set_playlist_remove_playlist",  # line 133
+    "DEMO_SET_PLAYLIST_NEXT_ITEM": "demo_set_playlist_next_item",  # line 134
+    "DEMO_SET_PLAYLIST_PREV_ITEM": "demo_set_playlist_prev_item",  # line 135
+    "DEMO_SET_PLAYLIST_BATCH_ADD": "demo_set_playlist_batch_add",  # line 136
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_NAME": "demo_set_playlist_batch_remove_by_name",  # line 137
+    "DEMO_SET_PLAYLIST_BATCH_REMOVE_BY_INDEX": "demo_set_playlist_batch_remove_by_index",  # line 138
+    "DEMO_GET_PLAYLIST_EXPAND_ALL": "demo_get_playlist_expand_all",  # line 139
 }
 
 # Section: SET_CMD_SPEAKER
 SET_CMD_SPEAKER = {
-    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 137
-    "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 138
+    "DEMO_SET_MEDIA_VOLUME": "demo_set_media_volume",  # line 142
+    "SYS_SET_SYSTEM_VOLUME": "sys_set_system_volume",  # line 143
 }
 
 # Section: SET_CMD_NAV
 SET_CMD_NAV = {
-    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 141
-    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 142
-    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 143
+    "DEMO_SET_NAV_STATE": "demo_set_nav_state",  # line 146
+    "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 147
+    "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 148
+}
+
+# Section: GET_CMD_DEMURA
+GET_CMD_DEMURA = {
+    "DEMO_GET_DEMURA_ON_OFF": "demo_get_demura_on_off",  # line 151
+}
+
+# Section: SET_CMD_DEMURA
+SET_CMD_DEMURA = {
+    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 154
+}
+
+# Section: GET_CMD_DEMURA_EDGE
+GET_CMD_DEMURA_EDGE = {
+    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 157
+}
+
+# Section: SET_CMD_DEMURA_EDGE
+SET_CMD_DEMURA_EDGE = {
+    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 160
+}
+
+# Section: GET_CMD_DEMURA_ROI
+GET_CMD_DEMURA_ROI = {
+    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 163
+}
+
+# Section: SET_CMD_DEMURA_ROI
+SET_CMD_DEMURA_ROI = {
+    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 166
+    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 170
 }
