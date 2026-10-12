@@ -85,12 +85,14 @@ CMD_TOTAL = {
     "DEMO_SET_NAV_STOP": "demo_set_nav_stop",  # line 147
     "DEMO_SET_NAV_MAP_IMAGE": "demo_set_nav_map_image",  # line 148
     "DEMO_GET_DEMURA_ON_OFF": "demo_get_demura_on_off",  # line 151
-    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 154
-    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 157
-    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 160
-    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 163
-    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 166
-    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 170
+    "DEMO_GET_VIDEO_FRAME_SIZE": "demo_get_video_frame_size",  # line 152
+    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 155
+    "DEMO_SET_VIDEO_FRAME_SIZE": "demo_set_video_frame_size",  # line 156
+    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 159
+    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 162
+    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 165
+    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 168
+    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 171
 }
 
 # Section: SPEC_CMD_SYS_Reboot
@@ -249,30 +251,36 @@ SET_CMD_NAV = {
 # Section: GET_CMD_DEMURA
 GET_CMD_DEMURA = {
     "DEMO_GET_DEMURA_ON_OFF": "demo_get_demura_on_off",  # line 151
+    "DEMO_GET_VIDEO_FRAME_SIZE": "demo_get_video_frame_size",  # line 152
 }
 
 # Section: SET_CMD_DEMURA
 SET_CMD_DEMURA = {
-    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 154
+    "DEMO_SET_DEMURA_ON_OFF": "demo_set_demura_on_off",  # line 155
+    "DEMO_SET_VIDEO_FRAME_SIZE": "demo_set_video_frame_size",  # line 156
 }
 
 # Section: GET_CMD_DEMURA_EDGE
 GET_CMD_DEMURA_EDGE = {
-    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 157
+    "DEMO_GET_DEMURA_EDGE": "demo_get_demura_edge",  # line 159
 }
 
 # Section: SET_CMD_DEMURA_EDGE
 SET_CMD_DEMURA_EDGE = {
-    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 160
+    "DEMO_SET_DEMURA_EDGE": "demo_set_demura_edge",  # line 162
 }
 
 # Section: GET_CMD_DEMURA_ROI
 GET_CMD_DEMURA_ROI = {
-    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 163
+    "DEMO_GET_DEMURA_ROI": "demo_get_demura_roi",  # line 165
 }
 
 # Section: SET_CMD_DEMURA_ROI
 SET_CMD_DEMURA_ROI = {
-    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 166
-    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 170
+    "DEMO_SET_DEMURA_ROI": "demo_set_demura_roi",  # line 168
+}
+
+# Section: DEMO_SET_DEMURA_LUT
+DEMO_SET_DEMURA_LUT = {
+    "DEMO_SET_DEMURA_LUT": "demo_set_demura_lut",  # line 171
 }

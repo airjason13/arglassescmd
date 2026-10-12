@@ -149,9 +149,11 @@ DEMO_SET_NAV_MAP_IMAGE = "demo_set_nav_map_image" # 更新導航圖片
 
 # GET_CMD_DEMURA
 DEMO_GET_DEMURA_ON_OFF="demo_get_demura_on_off" # 讀取 Demura 啟動狀態
+DEMO_GET_VIDEO_FRAME_SIZE="demo_get_video_frame_size" # 讀取 Video Frame Size
 
 # SET_CMD_DEMURA
 DEMO_SET_DEMURA_ON_OFF="demo_set_demura_on_off" # 設定 Demura 啟動狀態
+DEMO_SET_VIDEO_FRAME_SIZE="demo_set_video_frame_size" # 設定 Video Frame Size
 
 # GET_CMD_DEMURA_EDGE
 DEMO_GET_DEMURA_EDGE="demo_get_demura_edge" # 取得 Demura Edge 設定
@@ -168,5 +170,3 @@ DEMO_SET_DEMURA_ROI="demo_set_demura_roi" # 寫入 Demura ROI 設定
 # DEMO_SET_DEMURA_LUT
 DEMO_SET_DEMURA_LUT = "demo_set_demura_lut" # 上傳並載入 Demura LUT
 ''' ============== End of SET CMD ============== '''
-
-
